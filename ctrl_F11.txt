@@ -1,0 +1,15 @@
+INFO : org.springframework.context.annotation.ClassPathBeanDefinitionScanner - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+INFO : org.springframework.context.annotation.AnnotationConfigApplicationContext - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@2957fcb0: startup date [Wed Aug 14 11:30:11 BST 2019]; root of context hierarchy
+INFO : org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [admin.properties]
+INFO : org.springframework.context.support.PropertySourcesPlaceholderConfigurer - Loading properties file from class path resource [sub_admin.properties]
+INFO : org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3fb6a447: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,applicationConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,adminConfig,Properties]; root of factory hierarchy
+afterPropertiesSet()
+
+admin ID: main_admin
+admin PASSWORD: 12345
+sub-admin ID: sub_admin
+sub-admin PASSWORD: 67890
+INFO : org.springframework.context.annotation.AnnotationConfigApplicationContext - Closing org.springframework.context.annotation.AnnotationConfigApplicationContext@2957fcb0: startup date [Wed Aug 14 11:30:11 BST 2019]; root of context hierarchy
+INFO : org.springframework.beans.factory.support.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3fb6a447: defining beans [org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,applicationConfig,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0,adminConfig,Properties]; root of factory hierarchy
+destroy()
